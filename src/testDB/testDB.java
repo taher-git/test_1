@@ -19,7 +19,7 @@ public class testDB {
     	try {
 			 Class.forName(DRIVER);
 			 con  = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-				System.out.println("Connection established.");
+				System.out.println("Connection established...1");
 		    	
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
